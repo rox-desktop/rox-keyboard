@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: Sat Jan 22 19:22:10 2005\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.4\n"
+
+
+#: tips:1
+msgid "Keyboard"
+msgstr ""
+
+#: tips:2
+msgid "Cursor"
+msgstr ""
+
+#: tips:3
+msgid "Blinking cursor"
+msgstr ""
+
+#: tips:4
+msgid "Speed: (fast)"
+msgstr ""
+
+#: tips:5 tips:14
+msgid "(slow)"
+msgstr ""
+
+#: tips:6 tips:7
+msgid "Speed at which the text entry cursor flashes (if flashing is enabled)."
+msgstr ""
+
+#: tips:8
+msgid "Auto-repeat"
+msgstr ""
+
+#: tips:9
+msgid "Keys repeat when held down"
+msgstr ""
+
+#: tips:10
+msgid "Delay: (short)"
+msgstr ""
+
+#: tips:11
+msgid "(long)"
+msgstr ""
+
+#: tips:12
+msgid "Delay before each key starts repeating (if enabled)."
+msgstr ""
+
+#: tips:13
+msgid "Rate: (fast)"
+msgstr ""
+
+#: tips:15 tips:16
+msgid "Rate at which each key repeats (if enabled)."
+msgstr ""
+
+#: tips:17
+msgid "Shortcuts"
+msgstr ""
+
+#: tips:18
+msgid "Text editing: "
+msgstr ""
+
+#: tips:19
+msgid "Allow keybindings to be changed from menus"
+msgstr ""
+
+#: tips:20
+msgid "When this is on, you can set up a short-cut for a menu item by holding to pointer over the menu item and pressing the key. If off, short-cuts cannot be changed."
+msgstr ""
+
+#: tips:21 tips:22
+msgid ""
+"You can set global shortcuts (which work from any\n"
+"application) by assigning them to icons on a ROX-Filer pinboard or panel."
+msgstr ""
+
+#: tips:23
+msgid "Keyboard Layout"
+msgstr ""
+
+#: tips:24
+msgid "System Default"
+msgstr ""
+
+#: tips:25
+msgid "Belgian"
+msgstr ""
+
+#: tips:26
+msgid "Bulgarian"
+msgstr ""
+
+#: tips:27
+msgid "Brazilian"
+msgstr ""
+
+#: tips:28
+msgid "French Canadian"
+msgstr ""
+
+#: tips:29
+msgid "Croatian"
+msgstr ""
+
+#: tips:30
+msgid "Czechoslovakian (qwertz)"
+msgstr ""
+
+#: tips:31
+msgid "Czechoslovakian (latin2)"
+msgstr ""
+
+#: tips:32
+msgid "German (accent input enabled)"
+msgstr ""
+
+#: tips:33
+msgid "German (accent input disabled)"
+msgstr ""
+
+#: tips:34
+msgid "Dvorak"
+msgstr ""
+
+#: tips:35
+msgid "Danish"
+msgstr ""
+
+#: tips:36
+msgid "Spanish"
+msgstr ""
+
+#: tips:37
+msgid "Estonian"
+msgstr ""
+
+#: tips:38
+msgid "Finnish"
+msgstr ""
+
+#: tips:39
+msgid "French (latin1)"
+msgstr ""
+
+#: tips:40
+msgid "French (latin9)"
+msgstr ""
+
+#: tips:41
+msgid "Swiss French"
+msgstr ""
+
+#: tips:42
+msgid "Greek"
+msgstr ""
+
+#: tips:43
+msgid "Hungarian"
+msgstr ""
+
+#: tips:44
+msgid "Hungarian (qwerty)"
+msgstr ""
+
+#: tips:45
+msgid "Icelandic"
+msgstr ""
+
+#: tips:46
+msgid "Italian"
+msgstr ""
+
+#: tips:47
+msgid "Japanese"
+msgstr ""
+
+#: tips:48
+msgid "Korean"
+msgstr ""
+
+#: tips:49
+msgid "Latin American"
+msgstr ""
+
+#: tips:50
+msgid "Macedonian"
+msgstr ""
+
+#: tips:51
+msgid "Dutch"
+msgstr ""
+
+#: tips:52
+msgid "Norwegian"
+msgstr ""
+
+#: tips:53
+msgid "Polish"
+msgstr ""
+
+#: tips:54
+msgid "Portuguese"
+msgstr ""
+
+#: tips:55
+msgid "Romanian"
+msgstr ""
+
+#: tips:56
+msgid "Russian"
+msgstr ""
+
+#: tips:57
+msgid "Swedish"
+msgstr ""
+
+#: tips:58
+msgid "Swiss German"
+msgstr ""
+
+#: tips:59
+msgid "Slovakian"
+msgstr ""
+
+#: tips:60
+msgid "Slovenian"
+msgstr ""
+
+#: tips:61
+msgid "Turkish"
+msgstr ""
+
+#: tips:62
+msgid "United Kingdom"
+msgstr ""
+
+#: tips:63
+msgid "Ukrainian"
+msgstr ""
+
+#: tips:64
+msgid "U.S. International"
+msgstr ""
+
+#: tips:65
+msgid "U.S. English"
+msgstr ""
+
+#: tips:66
+msgid "Keyboard LEDs"
+msgstr ""
+
+#: tips:67
+msgid "NumLock"
+msgstr ""
+
+#: tips:68
+msgid "Turn on numeric keypad (Num) now and at every login."
+msgstr ""
+
+#: tips:69
+msgid "CapsLock"
+msgstr ""
+
+#: tips:70
+msgid "Turn on caps now and at every login."
+msgstr ""
+
+#: tips:71
+msgid "ScrollLock"
+msgstr ""
+
+#: tips:72 tips:73 tips:74 tips:75 tips:76
+msgid "Turn on scrolling (Roll) now and at every login."
+msgstr ""
+

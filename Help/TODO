@@ -1,0 +1,3 @@
+- i18n
+- get defaults from XF86Config (half-done)
+- checkbox to apply settings to XF86Config and /etc/sysconfig/keyboard (?)

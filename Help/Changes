@@ -1,0 +1,69 @@
+			Keyboard	
+			Configure Keyboard 
+			by Guido Schimmels
+		
+06-Oct-2005
+~~~~~~~~~~~
+
+(Version 0.10.1)
+
+No need for garbage collection when changing these options (Tony Houghton).
+
+04-Oct-2005
+~~~~~~~~~~~
+
+(Version 0.10.0)
+
+New generic settings.py, compatible with dbus 0.36 bindings (Tony Houghton).
+
+25-Apr-2005
+~~~~~~~~~~~
+
+(Version 0.9.4)
+
+Compatible with dbus 0.32 bindings (Tony Houghton).
+
+
+21-Jan-2005
+~~~~~~~~~~~
+
+(Version 0.9.3)
+
+Option for enabling NumLock/CapsLock/ScrollLock at login.
+	
+16-Jul-2004
+~~~~~~~~~~~
+
+(Version 0.9.2)
+
+Added options for keyboard auto-repeat; see also ROX-Session (Tony
+Houghton).
+
+04-June-2004
+~~~~~~~~~~~
+
+(Version 0.9.1)
+
+Implemented XKB keyboard layout switching as XSetting for ROX-Session
+Users, please remove SetXKBMap from your Autostart directory!
+
+01-June-2004
+~~~~~~~~~~~
+
+(Version 0.9)
+
+Support for XKB keyboard layout switching
+
+03-May-2004
+~~~~~~~~~~~
+
+(Version 0.8.1)
+
+Fix XDG support.
+
+02-May-2004
+~~~~~~~~~~~
+
+(Version 0.8)
+Created a first, fully functional version.
+

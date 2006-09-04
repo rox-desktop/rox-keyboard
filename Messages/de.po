@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: Sat Jan 22 19:22:10 2005\n"
+"PO-Revision-Date: 2005-01-22 19:31+0100\n"
+"Last-Translator: Guido Schimmels <__guido__@web.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+
+#: tips:1
+msgid "Keyboard"
+msgstr "Tastatur"
+
+#: tips:2
+msgid "Cursor"
+msgstr "Eingabemarke"
+
+#: tips:3
+msgid "Blinking cursor"
+msgstr "Blinkende Eingabemarke"
+
+#: tips:4
+msgid "Speed: (fast)"
+msgstr "Geschwindigkeit (schnell)"
+
+#: tips:5
+#: tips:14
+msgid "(slow)"
+msgstr "(langsam)"
+
+#: tips:6
+#: tips:7
+msgid "Speed at which the text entry cursor flashes (if flashing is enabled)."
+msgstr "Geschwindgkeit mit der die Texteingabemarke blinkt (wenn Blinken eingeschaltet)."
+
+#: tips:8
+msgid "Auto-repeat"
+msgstr "Tastenwiederholung"
+
+#: tips:9
+msgid "Keys repeat when held down"
+msgstr "Tastenwiederholung aktivieren"
+
+#: tips:10
+msgid "Delay: (short)"
+msgstr "Verzögerung: (kurz)"
+
+#: tips:11
+msgid "(long)"
+msgstr "(lang)"
+
+#: tips:12
+msgid "Delay before each key starts repeating (if enabled)."
+msgstr "Verzögerung für Tastenwiederholung (wenn aktiviert)"
+
+#: tips:13
+msgid "Rate: (fast)"
+msgstr "Rate: (schnell)"
+
+#: tips:15
+#: tips:16
+msgid "Rate at which each key repeats (if enabled)."
+msgstr "Tastenwiederholungsrate  (wenn aktiviert)"
+
+#: tips:17
+msgid "Shortcuts"
+msgstr "Tastenkürzel"
+
+#: tips:18
+msgid "Text editing: "
+msgstr "Im Text-Editor: "
+
+#: tips:19
+msgid "Allow keybindings to be changed from menus"
+msgstr "Erlaube Änderung der  Menü-Tastenkürzel"
+
+#: tips:20
+msgid "When this is on, you can set up a short-cut for a menu item by holding to pointer over the menu item and pressing the key. If off, short-cuts cannot be changed."
+msgstr "Hiermit können Sie Bestimmen, ob Tastenkürzel von Menüpunkten individuell änderbar sein sollen. Falls ja, kann dies durch Niederhalten der gewünschten Kombination für den gerade gewählten Menupunkt geschehen."
+
+#: tips:21
+#: tips:22
+msgid ""
+"You can set global shortcuts (which work from any\n"
+"application) by assigning them to icons on a ROX-Filer pinboard or panel."
+msgstr ""
+"Sie können übergreifende Kürzel definieren (die in\n"
+"allen Programmen funktionieren), indem Sie diese Symbolen auf Pinwand oder Panel zuweisen."
+
+#: tips:23
+msgid "Keyboard Layout"
+msgstr "Tastaturlayout"
+
+#: tips:24
+msgid "System Default"
+msgstr "Systemeinstellung"
+
+#: tips:25
+msgid "Belgian"
+msgstr "Belgisch"
+
+#: tips:26
+msgid "Bulgarian"
+msgstr "Bulgarisch"
+
+#: tips:27
+msgid "Brazilian"
+msgstr "Brasilianisch"
+
+#: tips:28
+msgid "French Canadian"
+msgstr "Französisch (Kanada)"
+
+#: tips:29
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: tips:30
+msgid "Czechoslovakian (qwertz)"
+msgstr "Tschechisch (qwertz)"
+
+#: tips:31
+msgid "Czechoslovakian (latin2)"
+msgstr "Tschechisch (latin2)"
+
+#: tips:32
+msgid "German (accent input enabled)"
+msgstr "Deutsch (mit Akzenteingabe)"
+
+#: tips:33
+msgid "German (accent input disabled)"
+msgstr "Deutsch (ohne Akzenteingabe)"
+
+#: tips:34
+msgid "Dvorak"
+msgstr "Dvorak"
+
+#: tips:35
+msgid "Danish"
+msgstr "Dänisch"
+
+#: tips:36
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: tips:37
+msgid "Estonian"
+msgstr "Estnisch"
+
+#: tips:38
+msgid "Finnish"
+msgstr "Finnisch"
+
+#: tips:39
+msgid "French (latin1)"
+msgstr "Französisch (latin1)"
+
+#: tips:40
+msgid "French (latin9)"
+msgstr "Französisch (latin9)"
+
+#: tips:41
+msgid "Swiss French"
+msgstr "Französisch (Schweiz)"
+
+#: tips:42
+msgid "Greek"
+msgstr "Griechisch"
+
+#: tips:43
+msgid "Hungarian"
+msgstr "Ungarisch"
+
+#: tips:44
+msgid "Hungarian (qwerty)"
+msgstr "Ungarisch (qwerty)"
+
+#: tips:45
+msgid "Icelandic"
+msgstr "Isländisch"
+
+#: tips:46
+msgid "Italian"
+msgstr "Italienisch"
+
+#: tips:47
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: tips:48
+msgid "Korean"
+msgstr "Koreanisch"
+
+#: tips:49
+msgid "Latin American"
+msgstr "Lateinamerikanisch"
+
+#: tips:50
+msgid "Macedonian"
+msgstr "Mazedonisch"
+
+#: tips:51
+msgid "Dutch"
+msgstr "Niederländisch"
+
+#: tips:52
+msgid "Norwegian"
+msgstr "Norwegisch"
+
+#: tips:53
+msgid "Polish"
+msgstr "Polnisch"
+
+#: tips:54
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: tips:55
+msgid "Romanian"
+msgstr "Rumänisch"
+
+#: tips:56
+msgid "Russian"
+msgstr "Russisch"
+
+#: tips:57
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: tips:58
+msgid "Swiss German"
+msgstr "Deutsch (Schweiz)"
+
+#: tips:59
+msgid "Slovakian"
+msgstr "Slowakisch"
+
+#: tips:60
+msgid "Slovenian"
+msgstr "Slowenisch"
+
+#: tips:61
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: tips:62
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+#: tips:63
+msgid "Ukrainian"
+msgstr "Ukrainisch"
+
+#: tips:64
+msgid "U.S. International"
+msgstr "U.S. International"
+
+#: tips:65
+msgid "U.S. English"
+msgstr "U.S. Englisch"
+
+#: tips:66
+msgid "Keyboard LEDs"
+msgstr "Tastatur-LEDs"
+
+#: tips:67
+msgid "NumLock"
+msgstr "Ziffernblock"
+
+#: tips:68
+msgid "Turn on numeric keypad (Num) now and at every login."
+msgstr "Ziffernblock (Num) an, jetzt und bei jedem Einloggen."
+
+#: tips:69
+msgid "CapsLock"
+msgstr "CapsLock"
+
+#: tips:70
+msgid "Turn on caps now and at every login."
+msgstr "CapsLock an, jetzt und bei jedem Einloggen."
+
+#: tips:71
+msgid "ScrollLock"
+msgstr "ScrollLock"
+
+#: tips:72
+#: tips:73
+#: tips:74
+#: tips:75
+#: tips:76
+msgid "Turn on scrolling (Roll) now and at every login."
+msgstr "Rollen an, jetzt und bei jedem Einloggen."
+
