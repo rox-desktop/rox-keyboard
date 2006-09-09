@@ -27,6 +27,11 @@ def add_key_themes(themes, dir):
 		if os.path.exists(os.path.join(dir, theme, 'gtk-2.0-key')):
 			themes[theme] = True
 
+def build_test_entry(box, node, label):
+	entry = g.Entry()
+	box.may_add_tip(entry, node)
+	return [entry]
+
 def build_key_theme(box, node, label, option):
 	hbox = g.HBox(False, 4)
 
@@ -83,9 +88,14 @@ def build_key_theme(box, node, label, option):
 
 	button.connect('changed', lambda w: box.check_widget(option))
 
-	return [hbox]
+	eb = g.EventBox()
+	eb.add(hbox)
+	box.may_add_tip(eb, node)
+
+	return [eb]
 
 OptionsBox.widget_registry['key-theme'] = build_key_theme
+OptionsBox.widget_registry['test-entry'] = build_test_entry
 
 settings = Settings()
 

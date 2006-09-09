@@ -4,17 +4,28 @@
 
 Brief
 ~~~~~
-
-Keyboard
-
-Keyboard lets you change keyboard layout, keyboard shortcuts and text cursor behaviour.
+Keyboard lets you change keyboard layout, keyboard shortcuts and text cursor
+behaviour.
 
 New versions can be found here:
 
-	http://roxos.sunsite.dk/dev-contrib/guido/Configure
+	http://rox.sourceforge.net/desktop/Keyboard
 
-You need to be running a recent (later than 0.1.21) version of ROX-Session,
-otherwise it won't work.
+You need to be running ROX-Session in order to use Keyboard. It is ROX-Session
+that saves the settings and restores them when you next log in; Keyboard only
+provides the graphical interface.
+
+Most settings have a tooltip, so hover the mouse over one of them to get more
+information.
+
+
+Known issues
+~~~~~~~~~~~~
+The D-BUS developers dropped support for Python 2.3. Keyboard is therefore
+hard-coded to use Python 2.4. If you have an even later version (e.g.,
+Python 2.5) then you'll need to edit the first line of the AppRun file.
+
+The keyboard LED settings don't appear to work.
 
 
 Conditions
@@ -41,4 +52,4 @@ The icon was taken from the Wasp theme
 
 Please report any bugs to the mailing list:
 
-	http://rox.sourceforge.net/phpwiki/index.php/MailingLists
+	http://rox.sourceforge.net/desktop/lists

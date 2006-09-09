@@ -1,85 +1,90 @@
 <?xml version='1.0'?>
 <options>
-    <section title='Keyboard'>
-    <frame label='Cursor'>
-      <toggle label='Blinking cursor' name='Net/CursorBlink'/>
-      <slider label='Speed: (fast)' end='(slow)' name='Net/CursorBlinkTime' fixed='0' min='100' max='2000' >Speed at which the text entry cursor flashes (if flashing is enabled).</slider>
-    </frame>
-		<frame label='Auto-repeat'>
-			<toggle label='Keys repeat when held down' name='ROX/KbdRepeat'/>
-			<hbox>
-				<numentry label='Delay' unit='ms' name='ROX/KbdDelay' fixed='0' step='10' min='100' max='1500'>Delay before each key starts repeating (if enabled).</numentry>
-				<label>          </label>
-				<numentry label='Interval' unit='ms' name='ROX/KbdInterval' fixed='0' step='10' min='10' max='200'>Interval between each key repeat (if enabled).</numentry>
-			</hbox>
-			<!--
-      <slider label='Delay: (short)' end='(long)' name='ROX/KbdDelay' fixed='0' min='100' max='1500' size-group='slider'>Delay before each key starts repeating (if enabled).</slider>
-      <slider label='Rate: (fast)' end='(slow)' name='ROX/KbdInterval' fixed='0' min='10' max='200' size-group='slider'>Rate at which each key repeats (if enabled).</slider>
-			-->
-	</frame>
-    <frame label='Shortcuts'>
-	  <key-theme name='Gtk/KeyThemeName' label='Text editing: '/>
-	  <spacer/>
-      <toggle name='Gtk/CanChangeAccels'
-    	    label='Allow keybindings to be changed from menus'>When this is on, you can set up a short-cut for a menu item by holding to pointer over the menu item and pressing the key. If off, short-cuts cannot be changed.</toggle>
-      <spacer/>
-      <label help='1'>You can set global shortcuts (which work from any
-application) by assigning them to icons on a ROX-Filer pinboard or panel.</label>
-    </frame>
-	<frame label='Keyboard Layout'>
-			<menu name='ROX/KeyTable'>
+  <section title='Keyboard'>
+
+    <frame label='Keyboard'>
+      <menu name='ROX/KeyTable' label='Keyboard Layout:'>
 					<!-- consolemap;XkbLayout;XkbModel;XkbVariant;Options -->
-			<item value="default"													label='System Default'/>
-			<item value="be-latin1;be;pc105;;"										label='Belgian'/>
-			<item value="bg;us,bg;pc105;;grp:shift_toggle,grp_led:scroll"			label='Bulgarian'/>
-			<item value="br-abnt2;br;abnt2;;"										label='Brazilian'/>
-			<item value="cf;ca_enhanced;pc105;;"									label='French Canadian'/>
-			<item value="croat;hr;pc105;;"											label='Croatian'/>
-			<item value="cz-us-qwertz;us,cz;pc105;;grp:shift_toggle,grp_led:scroll"	label='Czechoslovakian (qwertz)'/>
-			<item value="cz-lat2;cz_qwerty;pc105;;"									label='Czechoslovakian (latin2)'/>
-			<item value="de-latin1;de;pc105;;"										label='German (accent input enabled)'/>
-			<item value="de-latin1-nodeadkeys;de;pc105;nodeadkeys;"					label='German (accent input disabled)'/>
-			<item value="dvorak;dvorak;pc105;;"										label='Dvorak'/>
-			<item value="dk-latin1;dk;pc105;;"										label='Danish'/>
-			<item value="es;es;pc105;;"												label='Spanish'/>
-			<item value="et;ee;pc105;;"												label='Estonian'/>
-			<item value="fi-latin1;fi;pc105;;"										label='Finnish'/>
-			<item value="fr-latin1;fr-latin1;pc105;;"								label='French (latin1)'/>
-			<item value="fr-latin9;fr-latin9;pc105;;"								label='French (latin9)'/>
-			<item value="fr_CH-latin1;fr_CH;'pc105;;"								label='Swiss French'/>
-			<item value="gr;us,el;pc105;;grp:shift_toggle,grp_led:scroll"			label='Greek'/>
-			<item value="hu;hu;pc105;;"												label='Hungarian'/>
-			<item value="hu101;hu_qwerty;pc105;;"									label='Hungarian (qwerty)'/>
-			<item value="is-latin1;is;pc105;;"										label='Icelandic'/>
-			<item value="it;it;pc105;;"												label='Italian'/>
-			<item value="jp106;jp;jp106;;"											label='Japanese'/>
-			<item value="korean;us;pc105;;"											label='Korean'/>
-			<item value="la-latin1;la;pc105;;"										label='Latin American'/>
-			<item value="mk-utf;us,mk;pc105;;grp:shift_toggle,grp_led:scroll"		label='Macedonian'/>
-			<item value="nl;us;pc105;;"												label='Dutch'/>
-			<item value="no;no;pc105;;"												label='Norwegian'/>
-			<item value="pl;pl;pc105;;"												label='Polish'/>
-			<item value="pt-latin1;pt;pc105;;"										label='Portuguese'/>
-			<item value="ro_win;ro;pc105;;"											label='Romanian'/>
-			<item value="ru;us,ru;pc105;;grp:shift_toggle,grp_led:scroll"			label='Russian'/>
-			<item value="sv-latin1;se;pc105;;"										label='Swedish'/>
-			<item value="sg-latin1;de_CH;pc105;;"									label='Swiss German'/>
-			<item value="sk-qwerty;sk_qwerty;pc105;;"								label='Slovakian'/>
-			<item value="slovene;si;pc105;;"										label='Slovenian'/>
-			<item value="trq;tr;pc105;;"											label='Turkish'/>
-			<item value="uk;gb;pc105;;"												label='United Kingdom'/>
-			<item value="ua-utf;us,ua;pc105;;grp:shift_toggle,grp_led:scroll"		label='Ukrainian'/>
-			<item value="us-acentos;us_intl;pc105;;"								label='U.S. International'/>
-			<item value="us;us;pc105;;"												label='U.S. English'/>
-		</menu>
-	</frame>
-	<frame label='Keyboard LEDs'>
-		<hbox>
-				<toggle label='NumLock' name='ROX/NumLock'>Turn on numeric keypad (Num) now and at every login.</toggle>
-		<toggle label='CapsLock' name='ROX/CapsLock'>Turn on caps now and at every login.</toggle>
-		<toggle label='ScrollLock' name='ROX/ScrollLock'>Turn on scrolling (Roll) now and at every login.</toggle>
-	</hbox>
-	</frame>
-		
+	<item value="default"                                                    label='System Default'/>
+	<item value="be-latin1;be;pc105;;"                                       label='Belgian'/>
+	<item value="bg;us,bg;pc105;;grp:shift_toggle,grp_led:scroll"            label='Bulgarian'/>
+	<item value="br-abnt2;br;abnt2;;"                                        label='Brazilian'/>
+	<item value="cf;ca_enhanced;pc105;;"                                     label='French Canadian'/>
+	<item value="croat;hr;pc105;;"                                           label='Croatian'/>
+	<item value="cz-us-qwertz;us,cz;pc105;;grp:shift_toggle,grp_led:scroll"  label='Czechoslovakian (qwertz)'/>
+	<item value="cz-lat2;cz_qwerty;pc105;;"                                  label='Czechoslovakian (latin2)'/>
+	<item value="de-latin1;de;pc105;;"                                       label='German (accent input enabled)'/>
+	<item value="de-latin1-nodeadkeys;de;pc105;nodeadkeys;"                  label='German (accent input disabled)'/>
+	<item value="dvorak;dvorak;pc105;;"                                      label='Dvorak'/>
+	<item value="dk-latin1;dk;pc105;;"                                       label='Danish'/>
+	<item value="es;es;pc105;;"                                              label='Spanish'/>
+	<item value="et;ee;pc105;;"                                              label='Estonian'/>
+	<item value="fi-latin1;fi;pc105;;"                                       label='Finnish'/>
+	<item value="fr-latin1;fr-latin1;pc105;;"                                label='French (latin1)'/>
+	<item value="fr-latin9;fr-latin9;pc105;;"                                label='French (latin9)'/>
+	<item value="fr_CH-latin1;fr_CH;'pc105;;"                                label='Swiss French'/>
+	<item value="gr;us,el;pc105;;grp:shift_toggle,grp_led:scroll"            label='Greek'/>
+	<item value="hu;hu;pc105;;"                                              label='Hungarian'/>
+	<item value="hu101;hu_qwerty;pc105;;"                                    label='Hungarian (qwerty)'/>
+	<item value="is-latin1;is;pc105;;"                                       label='Icelandic'/>
+	<item value="it;it;pc105;;"                                              label='Italian'/>
+	<item value="jp106;jp;jp106;;"                                           label='Japanese'/>
+	<item value="korean;us;pc105;;"                                          label='Korean'/>
+	<item value="la-latin1;la;pc105;;"                                       label='Latin American'/>
+	<item value="mk-utf;us,mk;pc105;;grp:shift_toggle,grp_led:scroll"        label='Macedonian'/>
+	<item value="nl;us;pc105;;"                                              label='Dutch'/>
+	<item value="no;no;pc105;;"                                              label='Norwegian'/>
+	<item value="pl;pl;pc105;;"                                              label='Polish'/>
+	<item value="pt-latin1;pt;pc105;;"                                       label='Portuguese'/>
+	<item value="ro_win;ro;pc105;;"                                          label='Romanian'/>
+	<item value="ru;us,ru;pc105;;grp:shift_toggle,grp_led:scroll"            label='Russian'/>
+	<item value="sv-latin1;se;pc105;;"                                       label='Swedish'/>
+	<item value="sg-latin1;de_CH;pc105;;"                                    label='Swiss German'/>
+	<item value="sk-qwerty;sk_qwerty;pc105;;"                                label='Slovakian'/>
+	<item value="slovene;si;pc105;;"                                         label='Slovenian'/>
+	<item value="trq;tr;pc105;;"                                             label='Turkish'/>
+	<item value="uk;gb;pc105;;"                                              label='United Kingdom'/>
+	<item value="ua-utf;us,ua;pc105;;grp:shift_toggle,grp_led:scroll"        label='Ukrainian'/>
+	<item value="us-acentos;us_intl;pc105;;"                                 label='U.S. International'/>
+	<item value="us;us;pc105;;"                                              label='U.S. English'/>
+      </menu>
+
+      <spacer/>
+
+      <hbox>
+        <toggle label='Key repeat' name='ROX/KbdRepeat'>Keys repeat when held down</toggle>
+	<spacer/>
+	<numentry label='Delay' unit='ms' name='ROX/KbdDelay' fixed='0' step='10' min='100' max='1500'>Delay before each key starts repeating (if enabled).</numentry>
+	<spacer/>
+	<numentry label='Interval' unit='ms' name='ROX/KbdInterval' fixed='0' step='10' min='10' max='200'>Interval between each key repeat (if enabled).</numentry>
+      </hbox>
+    </frame>
+
+    <frame label='Keyboard LEDs'>
+      <hbox>
+	<toggle label='NumLock' name='ROX/NumLock'>Turn on numeric keypad (Num) now and at every login.</toggle>
+	<toggle label='CapsLock' name='ROX/CapsLock'>Turn on caps now and at every login.</toggle>
+	<toggle label='ScrollLock' name='ROX/ScrollLock'>Turn on scrolling (Roll) now and at every login.</toggle>
+      </hbox>
+    </frame>
+
+    <frame label='Cursor'>
+      <hbox>
+        <toggle label='Blinking cursor' name='Net/CursorBlink'>Turn this on to make the text cursor blink on and off, to make it easier to find it.</toggle>
+	<spacer/>
+        <slider label='Speed: (fast)' end='(slow)' name='Net/CursorBlinkTime' fixed='0' min='100' max='2000' >Speed at which the text entry cursor flashes (if blinking is enabled).</slider>
+      </hbox>
+    </frame>
+
+    <frame label='Short-cuts'>
+      <key-theme name='Gtk/KeyThemeName' label='Text editing: '>The key theme controls editing short-cuts that apply across all applications. Note: the "Default" theme closely mimicks Windows, while "Emacs" is actually a fairly generic Unix theme. Additional key themes can be placed in your ~/.themes directory; they must contain a gtk-2.0-key file to appear in the menu.</key-theme>
+      <spacer/>
+      <toggle name='Gtk/CanChangeAccels'
+	    label='Allow keybindings to be changed from menus'>When this is on, you can set up a short-cut for a menu item by holding to pointer over the menu item and pressing the key. If off, short-cuts cannot be changed.</toggle>
+    </frame>
+
+    <frame label='Test area'>
+      <test-entry>You can use this area to try out the settings above.</test-entry>
+    </frame>
   </section>
 </options>
