@@ -106,7 +106,7 @@ class KeySetting(Setting):
 KeySetting('Net/CursorBlink', 1)
 KeySetting('Net/CursorBlinkTime', 1200)
 KeySetting('Gtk/CanChangeAccels', 1)
-KeySetting('Gtk/KeyThemeName', "Default", 'gtk_key_theme')
+KeySetting('Gtk/KeyThemeName', "Emacs", 'gtk_key_theme')
 KeySetting('ROX/KeyTable',"default")
 KeySetting('ROX/KbdRepeat', 1)
 KeySetting('ROX/KbdDelay', 500)
