@@ -69,11 +69,8 @@
     </frame>
 
     <frame label='Cursor'>
-      <hbox>
         <toggle label='Blinking cursor' name='Net/CursorBlink'>Turn this on to make the text cursor blink on and off, to make it easier to find it.</toggle>
-	<spacer/>
         <slider label='Speed: (fast)' end='(slow)' name='Net/CursorBlinkTime' fixed='0' min='100' max='2000' >Speed at which the text entry cursor flashes (if blinking is enabled).</slider>
-      </hbox>
     </frame>
 
     <frame label='Short-cuts'>
