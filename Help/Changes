@@ -2,7 +2,13 @@
 			Configure Keyboard 
 			by Guido Schimmels
 
+13-Apr-2008 (Version 0.11.1)
+~~~~~~~~~~~
+
+See svn log for details.
+
 Changes in release 0.11:
+~~~~~~~~~~~~~~~~~~~~~~~
 
 - Added a test area for trying out the new settings (Thomas Leonard).
 
